@@ -1,8 +1,14 @@
 # OptiX-PathTracer-Basic-High-Quality-Rendering
 Milestone rendering results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/~viscomp/classes/cse168/sp20/168.html) final project.
 
-## Dielectric Layer
-- Implement dielectric material as following commands:
+### List of tasks TODO.
+- [x] Refraction
+- [ ] Environment Mapping
+- [ ] Two Add-ons
+- [ ] Video for Demo
+
+## Refraction
+- Implement dielectric material for refraction as following commands:
  ```
  dielectric <ior>
  ```
