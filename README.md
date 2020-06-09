@@ -40,5 +40,4 @@ Glass Sphere in Enviroment Map | [Cayley Interior](https://hdrihaven.com/hdri/?c
 
 Glass Sphere in Environment Map | [Palermo Sidewalk](https://hdrihaven.com/hdri/?h=palermo_sidewalk)
 :-------------------------:|:--------------------------:
-![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric2.png)
-<img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/palermo_sidewalk.jpg" width="720" height="360">
+![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  | <img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/palermo_sidewalk.jpg" width="720" height="360">
