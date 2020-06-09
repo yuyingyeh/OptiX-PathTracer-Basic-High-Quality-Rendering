@@ -33,6 +33,7 @@ Cornell Dielectric 1       | Cosine Dielectric 2
 where `pathToObjFiles` incidates `.obj` file path. I use external library [`tinyobjloader/tiny_obj_loader.h`](https://github.com/tinyobjloader/tinyobjloader/tree/v0.9.x) to fetch faces and vertices and store the triangles following the previous method. I follow the [example code](https://github.com/tinyobjloader/tinyobjloader/blob/v0.9.x/README.md) provided in the library repository to fetch the triangles.
 
 ## Video for Demo
+For each environment map, I rendered two scenes: 1) Glass Sphere in Environment Map 2) Glass [Bunny](https://graphics.stanford.edu/~mdfisher/Data/Meshes/bunny.obj) in Environment Map.
 
 - Environment map : [Cayley Interior](https://hdrihaven.com/hdri/?c=indoor&h=cayley_interior)
 <img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/cayley_interior.jpg" width="720" height="360">
