@@ -1,7 +1,7 @@
 # OptiX-PathTracer-Basic-High-Quality-Rendering
-Milestone rendering results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/~viscomp/classes/cse168/sp20/168.html) final project.
+Rendering results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/~viscomp/classes/cse168/sp20/168.html) final project. :+1:
 
-### List of tasks.
+### List of tasks. 
 - [x] Refraction
 - [x] Environment Mapping
 - [x] Support .obj Files
@@ -33,6 +33,11 @@ Cornell Dielectric 1       | Cosine Dielectric 2
 where `pathToObjFiles` incidates `.obj` file path. I use external library [`tinyobjloader/tiny_obj_loader.h`](https://github.com/tinyobjloader/tinyobjloader/tree/v0.9.x) to fetch faces and vertices and store the triangles following the previous method. I follow the [example code](https://github.com/tinyobjloader/tinyobjloader/blob/v0.9.x/README.md) provided in the library repository to fetch the triangles.
 
 ## Video for Demo
-Glass Sphere in Env       | Glass Bunny in Env
+
+Glass Sphere in Enviroment Map | [Cayley Interior](https://hdrihaven.com/hdri/?c=indoor&h=cayley_interior)
+:-------------------------:|:--------------------------:
+![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  | <img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/cayley_interior.jpg" width="720" height="360">
+
+Glass Sphere in Environment Map | Glass Bunny in Env
 :-------------------------:|:--------------------------:
 ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric2.png)
