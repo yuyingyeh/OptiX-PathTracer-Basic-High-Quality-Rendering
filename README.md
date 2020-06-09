@@ -34,10 +34,16 @@ where `pathToObjFiles` incidates `.obj` file path. I use external library [`tiny
 
 ## Video for Demo
 
-Glass Sphere in Enviroment Map | [Cayley Interior](https://hdrihaven.com/hdri/?c=indoor&h=cayley_interior)
-:-------------------------:|:--------------------------:
-![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  | <img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/cayley_interior.jpg" width="720" height="360">
+- Environment map : [Cayley Interior](https://hdrihaven.com/hdri/?c=indoor&h=cayley_interior)
+<img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/cayley_interior.jpg" width="720" height="360">
 
-Glass Sphere in Environment Map | [Palermo Sidewalk](https://hdrihaven.com/hdri/?h=palermo_sidewalk)
+Glass Sphere in Enviroment Map | Glass Bunny in Environment Map
 :-------------------------:|:--------------------------:
-![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  | <img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/palermo_sidewalk.jpg" width="720" height="360">
+![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/videoEnv.gif)  | ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/videoEnvBunny.gif)
+
+- Environment map : [Palermo Sidewalk](https://hdrihaven.com/hdri/?h=palermo_sidewalk)
+<img src="https://hdrihaven.com/files/hdri_images/tonemapped/1500/palermo_sidewalk.jpg" width="720" height="360">
+
+Glass Sphere in Environment Map | Glass Bunny in Environment Map
+:-------------------------:|:--------------------------:
+![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/videoEnv2.gif)  | ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/videoEnv2Bunny.gif)
