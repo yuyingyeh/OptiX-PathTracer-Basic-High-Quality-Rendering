@@ -1,10 +1,10 @@
 # OptiX-PathTracer-Basic-High-Quality-Rendering
 Milestone rendering results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/~viscomp/classes/cse168/sp20/168.html) final project.
 
-### List of tasks TODO.
+### List of tasks.
 - [x] Refraction
 - [x] Environment Mapping
-- [ ] Two Add-ons
+- [x] Support .obj Files
 - [x] Video for Demo
 
 ## Refraction
@@ -19,6 +19,20 @@ Cornell Dielectric 1       | Cosine Dielectric 2
 ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric2.png)
 
 ## Enviroment Mapping
+- Implement environment mapping as following commands:
+ ```
+ envmap <pathToHDRImages>
+ ```
+ where `pathToHDRImages` indicates HDR image file path. I use HDR images downloaded from [HDRIHaven](https://hdrihaven.com/hdris/). I use the library `HDRLoader.h` provided under `sutil/`  as my HDR image loader to get a `Texture Sampler` and look up the background values using `tex2D` via `(u,v)` coordinates given the ray directions in `miss program`. I refer to the [OptiX Tutorial](https://raytracing-docs.nvidia.com/optix6/tutorials_6_5/optix_tutorials.191212.A4.pdf) to implement this method.
+
+## Support .obj Files
+- Implement a method to read .obj file to the renderer. 
+ ```
+ obj <pathToObjFiles>
+ ```
+where `pathToObjFiles` incidates `.obj` file path. I use external library [`tinyobjloader/tiny_obj_loader.h`](https://github.com/tinyobjloader/tinyobjloader/tree/v0.9.x) to fetch faces and vertices and store the triangles following the previous method. I follow the [example code](https://github.com/tinyobjloader/tinyobjloader/blob/v0.9.x/README.md) provided in the library repository to fetch the triangles.
 
 ## Video for Demo
-![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)
+Glass Sphere in Env       | Glass Bunny in Env
+:-------------------------:|:--------------------------:
+![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric2.png)
