@@ -3,9 +3,9 @@ Milestone rendering results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/
 
 ### List of tasks TODO.
 - [x] Refraction
-- [ ] Environment Mapping
+- [x] Environment Mapping
 - [ ] Two Add-ons
-- [ ] Video for Demo
+- [x] Video for Demo
 
 ## Refraction
 - Implement dielectric material for refraction as following commands:
@@ -17,3 +17,8 @@ Milestone rendering results for [UCSD CSE 168 Rendering](http://cseweb.ucsd.edu/
 Cornell Dielectric 1       | Cosine Dielectric 2
 :-------------------------:|:--------------------------:
 ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric.png)  |  ![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/img/cornellDielectric2.png)
+
+## Enviroment Mapping
+
+## Video for Demo
+![](https://github.com/yuyingyeh/OptiX-PathTracer-Basic-High-Quality-Rendering/blob/master/video/video1.gif)
